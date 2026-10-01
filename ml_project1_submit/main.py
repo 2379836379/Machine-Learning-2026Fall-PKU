@@ -48,7 +48,19 @@ def main():
     print(f"Vocabulary size: {len(word_to_idx)}")
     print(f"Test accuracy: {accuracy(y_test, y_pred):.4f}")
 
-    # TODO: output the 10 most positive and 10 most negative words.
+    # A positive score means the word is more likely to occur in positive
+    # documents; a negative score means the opposite.
+    feature_log_odds = model.feature_log_prob_[1] - model.feature_log_prob_[0]
+    index_to_word = {index: word for word, index in word_to_idx.items()}
+    positive_indices = np.argsort(feature_log_odds)[::-1][:10]
+    negative_indices = np.argsort(feature_log_odds)[:10]
+
+    print("Most positive words:")
+    for index in positive_indices:
+        print(f"{index_to_word[int(index)]} {feature_log_odds[index]:.3f}")
+    print("Most negative words:")
+    for index in negative_indices:
+        print(f"{index_to_word[int(index)]} {feature_log_odds[index]:.3f}")
 
 
 if __name__ == "__main__":
