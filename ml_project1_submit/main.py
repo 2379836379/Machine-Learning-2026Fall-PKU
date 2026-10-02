@@ -8,6 +8,9 @@ from src.naive_bayes import BernoulliNaiveBayes
 
 DATA_DIR = Path(__file__).parent / "data"
 VOCAB_SIZE = 5000
+# Use unigram and adjacent bigram features for the feature-representation
+# experiment. Set to (1, 1) to reproduce the original unigram baseline.
+NGRAM_RANGE = (1, 2)
 
 
 def resolve_data_paths():
@@ -34,10 +37,12 @@ def main():
     y_test = test_df["label"].to_numpy(dtype=int)
 
     # IMPORTANT: vocabulary must be built from training data only.
-    word_to_idx = build_vocabulary(train_texts, max_vocab_size=VOCAB_SIZE)
+    word_to_idx = build_vocabulary(
+        train_texts, max_vocab_size=VOCAB_SIZE, ngram_range=NGRAM_RANGE
+    )
 
-    X_train = vectorize_texts(train_texts, word_to_idx)
-    X_test = vectorize_texts(test_texts, word_to_idx)
+    X_train = vectorize_texts(train_texts, word_to_idx, ngram_range=NGRAM_RANGE)
+    X_test = vectorize_texts(test_texts, word_to_idx, ngram_range=NGRAM_RANGE)
 
     model = BernoulliNaiveBayes()
     model.fit(X_train, y_train)
