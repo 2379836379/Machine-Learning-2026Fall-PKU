@@ -114,7 +114,7 @@ def train(data_root="data/CUB_200_2011", epochs=10, batch_size=32, lr=1e-3,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train the CUB CNN with 10-fold cross-validation")
     parser.add_argument("--data-root", default="data/CUB_200_2011")
-    parser.add_argument("--epochs", type=int, default=10)
+    parser.add_argument("--epochs", type=int, default=50)
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--folds", type=int, default=10)
