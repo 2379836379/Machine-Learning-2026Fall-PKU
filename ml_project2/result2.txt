@@ -1,0 +1,157 @@
+Fold 1/10: 10609 train / 1179 val
+Fold 2/10: 10609 train / 1179 val
+Fold 3/10: 10609 train / 1179 val
+Fold 4/10: 10609 train / 1179 val
+Fold 5/10: 10609 train / 1179 val
+Fold 6/10: 10609 train / 1179 val
+Fold 7/10: 10609 train / 1179 val
+Fold 8/10: 10609 train / 1179 val
+Fold 9/10: 10610 train / 1178 val
+Fold 10/10: 10610 train / 1178 val
+
+===== Fold 1/10 =====
+Epoch 1/50 | train loss 5.1741 acc 0.0128 | val loss 5.0151 acc 0.0212
+Epoch 2/50 | train loss 4.9624 acc 0.0280 | val loss 4.9055 acc 0.0365
+Epoch 3/50 | train loss 4.8687 acc 0.0364 | val loss 4.8503 acc 0.0390
+Epoch 4/50 | train loss 4.7987 acc 0.0457 | val loss 4.8041 acc 0.0509
+Epoch 5/50 | train loss 4.7297 acc 0.0550 | val loss 4.7634 acc 0.0628
+Epoch 6/50 | train loss 4.6739 acc 0.0602 | val loss 4.7866 acc 0.0517
+Epoch 7/50 | train loss 4.6216 acc 0.0641 | val loss 4.7073 acc 0.0577
+Epoch 8/50 | train loss 4.5044 acc 0.0846 | val loss 4.5853 acc 0.0823
+Epoch 9/50 | train loss 4.4665 acc 0.0942 | val loss 4.5694 acc 0.0806
+Epoch 10/50 | train loss 4.4524 acc 0.0953 | val loss 4.5614 acc 0.0831
+Epoch 11/50 | train loss 4.4259 acc 0.0967 | val loss 4.5445 acc 0.0941
+Epoch 12/50 | train loss 4.4027 acc 0.0980 | val loss 4.5305 acc 0.0874
+Epoch 13/50 | train loss 4.3846 acc 0.1058 | val loss 4.5122 acc 0.0950
+Epoch 14/50 | train loss 4.3528 acc 0.1092 | val loss 4.4997 acc 0.1026
+Epoch 15/50 | train loss 4.3372 acc 0.1117 | val loss 4.4734 acc 0.0967
+Epoch 16/50 | train loss 4.3192 acc 0.1173 | val loss 4.4675 acc 0.1043
+Epoch 17/50 | train loss 4.3016 acc 0.1167 | val loss 4.4605 acc 0.1026
+Epoch 18/50 | train loss 4.2883 acc 0.1158 | val loss 4.4768 acc 0.1128
+Epoch 19/50 | train loss 4.2772 acc 0.1190 | val loss 4.4339 acc 0.1086
+Epoch 20/50 | train loss 4.2533 acc 0.1234 | val loss 4.4247 acc 0.1213
+Epoch 21/50 | train loss 4.2435 acc 0.1261 | val loss 4.4348 acc 0.1187
+Epoch 22/50 | train loss 4.2202 acc 0.1277 | val loss 4.3882 acc 0.1264
+Epoch 23/50 | train loss 4.2080 acc 0.1356 | val loss 4.3736 acc 0.1255
+Epoch 24/50 | train loss 4.1846 acc 0.1413 | val loss 4.3903 acc 0.1247
+Epoch 25/50 | train loss 4.1343 acc 0.1517 | val loss 4.3369 acc 0.1374
+Epoch 26/50 | train loss 4.1172 acc 0.1551 | val loss 4.3331 acc 0.1332
+Epoch 27/50 | train loss 4.1190 acc 0.1516 | val loss 4.3228 acc 0.1315
+Epoch 28/50 | train loss 4.0895 acc 0.1597 | val loss 4.3140 acc 0.1349
+Early stopping
+
+===== Fold 2/10 =====
+Epoch 1/50 | train loss 5.1612 acc 0.0142 | val loss 5.0070 acc 0.0204
+Epoch 2/50 | train loss 4.9640 acc 0.0272 | val loss 4.9291 acc 0.0246
+Epoch 3/50 | train loss 4.8639 acc 0.0382 | val loss 4.9030 acc 0.0500
+Epoch 4/50 | train loss 4.7890 acc 0.0447 | val loss 4.7987 acc 0.0534
+Epoch 5/50 | train loss 4.7262 acc 0.0523 | val loss 4.7622 acc 0.0560
+Epoch 6/50 | train loss 4.6655 acc 0.0595 | val loss 4.6882 acc 0.0662
+Epoch 7/50 | train loss 4.6134 acc 0.0679 | val loss 4.6621 acc 0.0746
+Epoch 8/50 | train loss 4.5654 acc 0.0747 | val loss 4.6044 acc 0.0806
+Epoch 9/50 | train loss 4.5104 acc 0.0809 | val loss 4.5651 acc 0.0840
+Epoch 10/50 | train loss 4.4744 acc 0.0886 | val loss 4.5146 acc 0.0908
+Epoch 11/50 | train loss 4.4284 acc 0.0962 | val loss 4.4780 acc 0.1026
+Epoch 12/50 | train loss 4.3780 acc 0.1010 | val loss 4.4682 acc 0.1111
+Epoch 13/50 | train loss 4.3368 acc 0.1054 | val loss 4.4322 acc 0.1128
+Epoch 14/50 | train loss 4.2972 acc 0.1171 | val loss 4.4154 acc 0.1052
+Epoch 15/50 | train loss 4.2591 acc 0.1224 | val loss 4.3691 acc 0.1162
+Epoch 16/50 | train loss 4.2196 acc 0.1352 | val loss 4.3618 acc 0.1323
+Epoch 17/50 | train loss 4.1776 acc 0.1385 | val loss 4.3312 acc 0.1213
+Epoch 18/50 | train loss 4.1444 acc 0.1437 | val loss 4.2733 acc 0.1467
+Epoch 19/50 | train loss 4.0971 acc 0.1552 | val loss 4.2346 acc 0.1374
+Epoch 20/50 | train loss 4.0857 acc 0.1625 | val loss 4.1435 acc 0.1696
+Epoch 21/50 | train loss 4.0209 acc 0.1695 | val loss 4.1600 acc 0.1586
+Epoch 22/50 | train loss 3.9837 acc 0.1812 | val loss 4.1787 acc 0.1713
+Epoch 23/50 | train loss 3.9586 acc 0.1798 | val loss 4.0785 acc 0.1900
+Epoch 24/50 | train loss 3.9157 acc 0.1948 | val loss 4.0221 acc 0.1900
+Epoch 25/50 | train loss 3.8980 acc 0.2048 | val loss 4.0949 acc 0.1824
+Epoch 26/50 | train loss 3.7711 acc 0.2244 | val loss 3.8986 acc 0.2163
+Epoch 27/50 | train loss 3.7324 acc 0.2360 | val loss 3.8818 acc 0.2222
+Epoch 28/50 | train loss 3.7224 acc 0.2376 | val loss 3.8867 acc 0.2324
+Epoch 29/50 | train loss 3.7024 acc 0.2443 | val loss 3.8512 acc 0.2290
+Epoch 30/50 | train loss 3.6845 acc 0.2505 | val loss 3.8760 acc 0.2239
+Epoch 31/50 | train loss 3.6456 acc 0.2595 | val loss 3.8188 acc 0.2341
+Epoch 32/50 | train loss 3.6291 acc 0.2674 | val loss 3.8162 acc 0.2349
+Epoch 33/50 | train loss 3.6232 acc 0.2647 | val loss 3.8089 acc 0.2366
+Epoch 34/50 | train loss 3.6218 acc 0.2657 | val loss 3.8052 acc 0.2494
+Epoch 35/50 | train loss 3.6154 acc 0.2635 | val loss 3.7995 acc 0.2392
+Epoch 36/50 | train loss 3.6016 acc 0.2663 | val loss 3.7964 acc 0.2383
+Epoch 37/50 | train loss 3.5956 acc 0.2680 | val loss 3.7828 acc 0.2417
+Early stopping
+
+===== Fold 3/10 =====
+Epoch 1/50 | train loss 5.1660 acc 0.0146 | val loss 5.0025 acc 0.0263
+Epoch 2/50 | train loss 4.9641 acc 0.0273 | val loss 4.9209 acc 0.0339
+Epoch 3/50 | train loss 4.8724 acc 0.0354 | val loss 4.8723 acc 0.0416
+Epoch 4/50 | train loss 4.8031 acc 0.0426 | val loss 4.8097 acc 0.0433
+Epoch 5/50 | train loss 4.7368 acc 0.0517 | val loss 4.8024 acc 0.0517
+Epoch 6/50 | train loss 4.6815 acc 0.0575 | val loss 4.7262 acc 0.0543
+Epoch 7/50 | train loss 4.6173 acc 0.0659 | val loss 4.6703 acc 0.0772
+Epoch 8/50 | train loss 4.5594 acc 0.0742 | val loss 4.6311 acc 0.0729
+Epoch 9/50 | train loss 4.5131 acc 0.0807 | val loss 4.6436 acc 0.0712
+Epoch 10/50 | train loss 4.3990 acc 0.0993 | val loss 4.5184 acc 0.1035
+Epoch 11/50 | train loss 4.3583 acc 0.1084 | val loss 4.5051 acc 0.1001
+Epoch 12/50 | train loss 4.3363 acc 0.1117 | val loss 4.4970 acc 0.1145
+Epoch 13/50 | train loss 4.3161 acc 0.1167 | val loss 4.4854 acc 0.1052
+Epoch 14/50 | train loss 4.2952 acc 0.1182 | val loss 4.4729 acc 0.1111
+Epoch 15/50 | train loss 4.2437 acc 0.1273 | val loss 4.4403 acc 0.1196
+Epoch 16/50 | train loss 4.2404 acc 0.1303 | val loss 4.4424 acc 0.1238
+Epoch 17/50 | train loss 4.2335 acc 0.1310 | val loss 4.4239 acc 0.1213
+Epoch 18/50 | train loss 4.2112 acc 0.1355 | val loss 4.4182 acc 0.1230
+Epoch 19/50 | train loss 4.2046 acc 0.1377 | val loss 4.4139 acc 0.1221
+Early stopping
+
+===== Fold 4/10 =====
+Epoch 1/50 | train loss 5.1655 acc 0.0146 | val loss 5.0191 acc 0.0170
+Epoch 2/50 | train loss 4.9652 acc 0.0290 | val loss 4.9295 acc 0.0305
+Epoch 3/50 | train loss 4.8623 acc 0.0370 | val loss 4.8740 acc 0.0365
+Epoch 4/50 | train loss 4.7916 acc 0.0425 | val loss 4.8389 acc 0.0441
+Epoch 5/50 | train loss 4.7328 acc 0.0503 | val loss 4.7910 acc 0.0551
+Epoch 6/50 | train loss 4.6661 acc 0.0625 | val loss 4.7486 acc 0.0509
+Epoch 7/50 | train loss 4.6217 acc 0.0663 | val loss 4.6626 acc 0.0645
+Epoch 8/50 | train loss 4.5747 acc 0.0726 | val loss 4.6315 acc 0.0696
+Epoch 9/50 | train loss 4.5261 acc 0.0816 | val loss 4.6047 acc 0.0780
+Epoch 10/50 | train loss 4.4702 acc 0.0890 | val loss 4.5750 acc 0.0780
+Epoch 11/50 | train loss 4.4281 acc 0.0926 | val loss 4.5436 acc 0.0814
+Epoch 12/50 | train loss 4.3951 acc 0.0990 | val loss 4.5767 acc 0.0865
+Epoch 13/50 | train loss 4.3514 acc 0.1076 | val loss 4.4850 acc 0.1103
+Epoch 14/50 | train loss 4.3069 acc 0.1154 | val loss 4.4455 acc 0.1128
+Epoch 15/50 | train loss 4.2756 acc 0.1195 | val loss 4.4422 acc 0.0984
+Epoch 16/50 | train loss 4.2354 acc 0.1305 | val loss 4.3800 acc 0.1196
+Epoch 17/50 | train loss 4.1877 acc 0.1384 | val loss 4.3691 acc 0.1221
+Epoch 18/50 | train loss 4.1617 acc 0.1484 | val loss 4.3581 acc 0.1255
+Epoch 19/50 | train loss 4.1233 acc 0.1495 | val loss 4.2984 acc 0.1332
+Epoch 20/50 | train loss 4.0854 acc 0.1558 | val loss 4.2818 acc 0.1374
+Epoch 21/50 | train loss 4.0660 acc 0.1601 | val loss 4.2304 acc 0.1442
+Epoch 22/50 | train loss 4.0122 acc 0.1700 | val loss 4.2107 acc 0.1383
+Epoch 23/50 | train loss 3.9824 acc 0.1774 | val loss 4.3237 acc 0.1484
+Epoch 24/50 | train loss 3.9488 acc 0.1902 | val loss 4.1377 acc 0.1815
+Epoch 25/50 | train loss 3.9232 acc 0.1931 | val loss 4.2516 acc 0.1552
+Epoch 26/50 | train loss 3.8794 acc 0.1995 | val loss 4.0918 acc 0.1824
+Epoch 27/50 | train loss 3.8452 acc 0.2073 | val loss 4.0868 acc 0.1858
+Epoch 28/50 | train loss 3.8122 acc 0.2129 | val loss 4.0552 acc 0.1900
+Epoch 29/50 | train loss 3.7710 acc 0.2227 | val loss 4.0012 acc 0.1891
+Epoch 30/50 | train loss 3.7499 acc 0.2272 | val loss 3.9679 acc 0.2053
+Epoch 31/50 | train loss 3.7242 acc 0.2334 | val loss 3.9197 acc 0.2078
+Epoch 32/50 | train loss 3.6931 acc 0.2446 | val loss 4.0697 acc 0.1976
+Epoch 33/50 | train loss 3.6610 acc 0.2474 | val loss 3.9297 acc 0.2036
+Epoch 34/50 | train loss 3.5200 acc 0.2902 | val loss 3.8189 acc 0.2417
+Epoch 35/50 | train loss 3.5010 acc 0.2954 | val loss 3.7916 acc 0.2612
+Epoch 36/50 | train loss 3.4883 acc 0.2980 | val loss 3.7840 acc 0.2612
+Epoch 37/50 | train loss 3.4645 acc 0.3038 | val loss 3.7525 acc 0.2485
+Epoch 38/50 | train loss 3.4369 acc 0.3125 | val loss 3.7322 acc 0.2680
+Epoch 39/50 | train loss 3.4209 acc 0.3178 | val loss 3.7321 acc 0.2612
+Epoch 40/50 | train loss 3.4069 acc 0.3237 | val loss 3.7326 acc 0.2477
+Epoch 41/50 | train loss 3.3824 acc 0.3303 | val loss 3.7228 acc 0.2621
+Early stopping
+
+===== Fold 5/10 =====
+Epoch 1/50 | train loss 5.1685 acc 0.0138 | val loss 5.0174 acc 0.0212
+Epoch 2/50 | train loss 4.9802 acc 0.0229 | val loss 4.8955 acc 0.0314
+Epoch 3/50 | train loss 4.8790 acc 0.0356 | val loss 4.8976 acc 0.0339
+Epoch 4/50 | train loss 4.7922 acc 0.0433 | val loss 4.7917 acc 0.0543
+Epoch 5/50 | train loss 4.7342 acc 0.0526 | val loss 4.7992 acc 0.0424
+Epoch 6/50 | train loss 4.6760 acc 0.0581 | val loss 4.6647 acc 0.0611
+Epoch 7/50 | train loss 4.6188 acc 0.0651 | val loss 4.6542 acc 0.0662
+Epoch 8/50 | train loss 4.5807 acc 0.0704 | val loss 4.5987 acc 0.0696
