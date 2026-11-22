@@ -1,0 +1,5 @@
+# Changes
+
+- 将默认的逐位置对联预测改为带注意力的 GRU Seq2Seq 编码器-解码器，自回归生成下联。
+- 加入 BOS/EOS 词表标记、decoder 输入与目标预处理、teacher forcing 训练，以及 CLI/Web 自回归推理和生成式评估。
+- 更新 README，并移除上下联必须等长的预处理限制。
