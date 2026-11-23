@@ -16,6 +16,14 @@
 命令行参数的详细说明见文件内，你也可以在 `module/model.py` 中定义你自己的模型。
 
 训练数据在预处理时会加入 `[BOS]` 和 `[EOS]` 标记。Seq2Seq 模型使用 teacher forcing 训练，并在推理时自回归生成下联。
+
+训练时，`--batch_size` 指每次参数更新使用的样本数；默认每次前向和反向计算最多处理 32 条，累积梯度后统一更新参数，以减少内存占用。例如：
+
+```bash
+uv run python main.py --dir dataset --output output --epochs 20 --batch_size 768
+```
+
+可用 `--micro_batch_size 16` 进一步降低内存占用，或在内存充足时调大该值。数据集使用内存映射加载，无需重新预处理。
 ## Using Docker 
 ```docker pull wisedoge/coupletai```  
 
