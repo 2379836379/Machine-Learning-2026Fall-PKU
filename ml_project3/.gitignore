@@ -7,7 +7,7 @@ output
 # C extensions
 *.so
 .idea
-*.gz
+#*.gz
 demo.py
 *.aria2
 log
